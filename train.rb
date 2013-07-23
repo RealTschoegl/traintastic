@@ -17,5 +17,9 @@ class Train
     end
   end
 
+  def trip_distance(duration)
+    duration * @speed
+  end
+
 end
 
